@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>Chatter_ConversionPost</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter_ConversionPost</shortDescription>
+        <value>I&apos;m now actively tracking {!Name}</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_MultipleAmendmentInsertPost</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter_MultipleAmendmentInsertPost</shortDescription>
+        <value>I&apos;ve inserted {!Name} new Amendments for {!Bill}</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_MultipleRollVoteInsertPost</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter_MultipleRollVoteInsertPost</shortDescription>
+        <value>I&apos;ve inserted {!Name} new Roll Votes for {!Bill}</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_SingleAmendmentInsertPost</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter_SingleAmendmentInsertPost</shortDescription>
+        <value>I&apos;ve created a new Amendment for {!Bill}: {!Name}</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_SingleRollVoteInsertPost</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter_SingleRollVoteInsertPost</shortDescription>
+        <value>I&apos;ve created a new Roll Vote for {!Bill}: {!Name}</value>
+    </labels>
+    <labels>
+        <fullName>DataSource_Help_Text</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DataSource_Help_Text</shortDescription>
+        <value>This tab can be used to configure new data sources for GovWatcher, include APIs and flat files.   You&apos;ll need to have already created a new class that implements the GovWatcher API interface to add an additional option.  You can also edit and adjust API Keys and credentials here.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorConsole_Help_Text</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorConsole_Help_Text</shortDescription>
+        <value>The error console provides additional information on API errors, or internal application errors you may be experiencing.  The values are reset each evening prior to running the scheduled update of the application data unless otherwise specified.</value>
+    </labels>
+    <labels>
         <fullName>FGW_Chatter_ConversionPost</fullName>
         <categories>GovWatcher</categories>
         <language>en_US</language>
@@ -62,6 +118,14 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>FGW_Settings_Description</shortDescription>
+        <value>Configure GovWatcher APIs and Settings</value>
+    </labels>
+    <labels>
+        <fullName>Settings_Description</fullName>
+        <categories>GovWatcher</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Settings_Description</shortDescription>
         <value>Configure GovWatcher APIs and Settings</value>
     </labels>
 </CustomLabels>

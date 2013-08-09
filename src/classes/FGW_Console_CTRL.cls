@@ -182,7 +182,7 @@ public with sharing class FGW_Console_CTRL{
         
           //use fieldset to make sure we're getting the correct data...
         String q = 'select Name, Id, ';
-        for(Schema.FieldSetMember f : SObjectType.FGW__Legislation__c.FieldSets.FGW__FGW_Legislation_Console_Fields.getFields()) {
+        for(Schema.FieldSetMember f : SObjectType.Legislation__c.FieldSets.FGW_Legislation_Console_Fields.getFields()) {
             String s = f.getFieldPath();
             if (s.toUpperCase() != 'ID' && s.toUpperCase() != 'NAME')
                 q += f.getFieldPath() + ', ';
@@ -218,7 +218,7 @@ public with sharing class FGW_Console_CTRL{
         
         //use fieldset to make sure we're getting the correct data...
         String q = 'select Name, Id, ';
-        for(Schema.FieldSetMember f : SObjectType.Contact.FieldSets.FGW__FGW_Legislator_Console_Fields.getFields()) {
+        for(Schema.FieldSetMember f : SObjectType.Contact.FieldSets.FGW_Legislator_Console_Fields.getFields()) {
             String s = f.getFieldPath();
             if (s.toUpperCase() != 'ID' && s.toUpperCase() != 'NAME')
                 q += f.getFieldPath() + ', ';

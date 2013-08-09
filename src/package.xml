@@ -36,6 +36,7 @@
         <members>Legislation__c</members>
         <members>Legislator_Vote__c</members>
         <members>Roll_Vote__c</members>
+        <members>Search_Result__c</members>
         <name>CustomObject</name>
     </types>
     <types>
