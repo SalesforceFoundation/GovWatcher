@@ -35,21 +35,18 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <description>A single record in the result of Legislation or Legislators resulting from a successful query.</description>
     <enableActivities>true</enableActivities>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
     <fieldSets>
         <fullName>FGW_Search_Result_Console_Fields</fullName>
         <availableFields>
+            <field>CreatedById</field>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
             <field>CreatedDate</field>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>OwnerId</field>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <availableFields>
-            <field>LastModifiedById</field>
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
@@ -57,11 +54,15 @@
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>SystemModstamp</field>
+            <field>LastModifiedById</field>
             <isRequired>false</isRequired>
         </availableFields>
         <availableFields>
-            <field>CreatedById</field>
+            <field>OwnerId</field>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SystemModstamp</field>
             <isRequired>false</isRequired>
         </availableFields>
         <description>Fields displayed as part of the Search Results table in the GovWatcher Console.</description>

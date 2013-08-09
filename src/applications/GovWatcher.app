@@ -3,7 +3,6 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <description>Identify, follow and track legislation and legislators using free, open APIs like Govtrack.us and the Sunlight Foundation&apos;s RealTimeCongress API.</description>
     <label>GovWatcher</label>
-    <logo>GovWatcher/GovWatcher_App_Logo.gif</logo>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-report</tab>
